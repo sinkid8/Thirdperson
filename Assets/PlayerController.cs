@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI; 
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
-    public int score = 0; 
-    public Text scoreText; 
+    public int score = 0;
+    public TextMeshProUGUI scoreText;
 
     void Start()
     {
